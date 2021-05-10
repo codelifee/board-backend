@@ -1,0 +1,11 @@
+{
+    "Database": {
+      "dbConfig": {
+        "host": "break106.cafe24.com",
+        "port": 3306,
+        "database": "break106",
+        "user" : "break106",
+        "password" : "Q1qaz2wsx"
+      }
+    }
+  }
