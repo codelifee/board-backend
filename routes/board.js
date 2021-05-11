@@ -23,7 +23,7 @@ router.put('/:id', async function(req, res, next){
 });
 
 //게시물 삭제
-router.delete('/', async function(req, res, next){    
+router.delete('/:id', async function(req, res, next){    
     res.json(await knex_query.boarddelete(req.body));
 });
 

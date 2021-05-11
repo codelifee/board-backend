@@ -26,6 +26,7 @@ const boarddelete = function(data){
     return mariaDB('si_board').where('board_no', data.board_no).del();
 }
 
+
 module.exports = {
     boardall: boardall,
     boarddetail: boarddetail,
